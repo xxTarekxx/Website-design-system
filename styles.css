@@ -3,6 +3,10 @@
     border: 2px solid #a2a2a6;
 }
 
+.container>h2 {
+    padding-left: 4px;
+}
+
 .color-set {
     display: flex;
     flex-wrap: wrap;
@@ -13,7 +17,7 @@
 .color-panel {
     width: 20rem;
     text-align: center;
-    margin: 20px;
+    margin: 4px;
     min-height: 100px;
     display: flex;
     align-items: center;
@@ -24,8 +28,6 @@
 .federal-Blue {
     background-color: #03045e;
     color: aliceblue;
-
-
 }
 
 .honolulu-blue {
@@ -45,27 +47,42 @@
 }
 
 .font-type {
-    display: inline-block;
-    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-box-practice {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .source-code-font {
+    width: 20rem;
+    display: inline-flex;
     font-family: 'Source Code Pro', monospace;
 }
 
 .nunito-sans-font {
+    width: 20rem;
+    display: inline-flex;
     font-family: 'Nunito Sans', sans-serif;
 }
 
 .poppins-font {
-    font-family: Poppins;
+    width: 20rem;
+    display: inline-flex;
+    font-family: Poppins, sans-serif;
 }
 
 p {
+    margin: 0px;
     font-size: 16px;
+    padding-bottom: 0px;
 }
 
 .font-label {
+    margin: 0px;
     font-size: 20px;
     text-decoration: underline;
 }
